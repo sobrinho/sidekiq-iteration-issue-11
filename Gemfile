@@ -65,6 +65,6 @@ group :test do
   gem "selenium-webdriver"
 end
 
-gem "connection_pool", "< 3"
+gem "connection_pool", "< 4"
 gem "sidekiq", "7.2.4"
 gem "sidekiq-iteration", github: "fatkodima/sidekiq-iteration", branch: "fix-processing-twice"
