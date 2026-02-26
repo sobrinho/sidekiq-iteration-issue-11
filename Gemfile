@@ -66,5 +66,5 @@ group :test do
 end
 
 gem "connection_pool", "< 3"
-gem "sidekiq", "7.2.4"
+gem "sidekiq", "8.0.10"
 gem "sidekiq-iteration", github: "fatkodima/sidekiq-iteration", branch: "fix-processing-twice"
